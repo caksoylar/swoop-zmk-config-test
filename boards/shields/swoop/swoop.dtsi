@@ -40,7 +40,7 @@
 		compatible = "alps,ec11";
         a-gpios = <&pro_micro 8 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>;
         b-gpios = <&pro_micro 9 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>;
-        resolution = <4>;
+        steps = <80>;
         status = "disabled";
 	};
 
@@ -48,7 +48,7 @@
 		compatible = "alps,ec11";
         a-gpios = <&pro_micro 9 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>;
         b-gpios = <&pro_micro 8 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>;
-        resolution = <4>;
+        steps = <80>;
         status = "disabled";
 	};
 
